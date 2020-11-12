@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Form validation with JavaScript</title>
+ 
+  <!--Joan-->
+  <link rel="stylesheet" href="css/styles.css">   
+</head>
+<body>
+  <div id="wrapper">
+   <form method="POST" action="./alta.html" onsubmit="return Validate()" name="vform" >
+   	<div id="username_div">
+   	  <label>Username</label> <br>
+   	  <input type="text"  id="username" class="textInput">
+   	  <div id="name_error" class="error"></div>
+   	</div>
+   	<div id="password_div">
+   	  <label>Password</label> <br>
+   	  <input type="password"  id="myPass" class="textInput">
+   	  <div id="pass_error" class="error"></div>
+   	</div>
+   	<div id="repeatPass_div">
+   	  <label>Repeat Password</label> <br>
+   	  <input type="password"  id="myRepeat" class="textInput">
+   	  <div id="repeat_error" class="error"></div>
+   	</div>
+   	<div id="email_div">
+   	  <label>Email</label> <br>
+   	  <input type="email"  id="email" class="textInput">
+   	  <div id="email_error" class="error"></div>
+	</div>
+	<div id="tel_div">
+	  <label>Phone</label> <br>
+	  <input type="tel"  id="tel" class="textInput">
+	  <div id="tel_error" class="error"></div>
+	</div>
+
+   	<div>
+   		<input type="submit" name="register" value="Register" class="btn">
+   	</div>
+   </form>
+</div>
+
+<!--Own-->
+     <script src='js/formAlumnes.js' type='text/javascript'></script>
+</body>
+</html>
