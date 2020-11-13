@@ -35,97 +35,7 @@ let boleano = false;
 function Validate() {
   // clean me
 
-  /* let validador = true;
-  // validate username
-  if (username.value.length == 0) {  
-    username.style.border = "1px solid red";
-    name_error.style.color = "red";
-    name_error.textContent = "Username is required";
-    username.focus();
-    validador = false;
-
-  } else if (username.value.length < 3) {
-    username.style.border = "1px solid red";
-    name_error.style.color = "red";
-    name_error.textContent = "Username must be at least 3 characters";
-    username.focus();
-    validador = false;
-
-  } else if (!LETTERS.test(username.value)){
-    username.style.border = "1px solid red";
-    name_error.style.color = "red";
-    name_error.textContent = "Username must start with a letter";
-    username.focus();
-    validador = false;
-
-  } else {
-    username.style.border = "1px solid green";
-    name_error.style.color = "green";
-    name_error.textContent = "Username OK";
-    username.focus();
-    validador = true;
-  }
-  //validate password
-  if (myPass.value.length == 0) {  
-    myPass.style.border = "1px solid red";
-    pass_error.style.color = "red";
-    pass_error.textContent = "Password is required";
-    myPass.focus();
-    validador = false;
-
-  }
-
-  //validate re-pass
-  if (myPass.value !== rePass.value){
-    rePass.style.border = "1px solid red";
-    repeat_error.style.color = "red";
-    repeat_error.textContent = "Password is required to match";
-    rePass.focus();
-    validador = false; 
-  } else if (rePass.value.length == 0){
-    rePass.style.border = "1px solid red";
-    repeat_error.style.color = "red";
-    repeat_error.textContent = "Empty Field!!";
-    rePass.focus();
-    validador = false
-  } else if (myPass.value === rePass.value){
-    rePass.style.border = "1px solid green";
-    repeat_error.style.color = "green";
-    repeat_error.textContent = "Password match";
-    rePass.focus();
-    validador = true; 
-  } 
-
-  //Validate mail
-  if (myMail.value.length == 0) {
-    myMail.style.border = "1px solid red";
-    mail_error.style.color = "red";
-    mail_error.textContent = "Mail is required";
-    myMail.focus();
-    validador = false;
-  } else if (!RE.test(myMail.value)) {
-    myMail.style.border = "1px solid red";
-    mail_error.style.color = "red";
-    mail_error.textContent = "Mail form not correct";
-    myMail.focus();
-    validador = false;
-  }
-
-  //Phone validation
-  if (myPhone.value.length == 0){
-    myPhone.style.border = "1px solid red";
-    tel_error.style.color = "red";
-    tel_error.textContent = "Phone number is required";
-    myPhone.focus();
-    validador = false;
-  }else if (!BLAH.test(myPhone.value)) {
-    myPhone.style.border = "1px solid red";
-    tel_error.style.color = "red";
-    tel_error.textContent = "Phone number not correct!";
-    myPhone.focus();
-    validador = false;
-  }
-  return validador; */
+ 
 boleano = false;
   //one ring to rule them all
   let functOne   = nameVerify();
@@ -136,7 +46,7 @@ boleano = false;
   
   //you'll tell me the true
   ((functOne) && (functTwo) && (functThree) && (functFour) && (functFive)) ? boleano = false : boleano = true;
-  
+
   return boleano;
 }
 
